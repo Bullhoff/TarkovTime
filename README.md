@@ -1,11 +1,11 @@
 # TarkovTime
-A simple python program for displaying the ingame Escape from Tarkov time in a transparent standalone window.
+A simple python program for displaying the ingame Escape from Tarkov time in a transparent standalone window.  
 
-Download and run the prepackaged exe [TarkovTime_v1.zip](https://github.com/Bullhoff/TarkovTime/files/9693304/TarkovTime_v1.zip) or package it yourself with: 
+Download and run the prepackaged exe [TarkovTime_v1.zip](https://github.com/Bullhoff/TarkovTime/files/9693304/TarkovTime_v1.zip) or package it yourself with:  
 ``` pyinstaller --windowed --onefile --icon=icon.ico TarkovTime.py ```
 
-TarkovTime originally had hotkeys, mainly for temporarly adding a background to the time to make it easier to drag, but i ended up removing it since i never used it and it gave some virus/keylogger warnings. Everything is still there to enable it again if its of interest, simply uncomment this line: 
-``` #import hotkeys ```
+TarkovTime originally had hotkeys, mainly for temporarly adding a background to the time to make it easier to drag, but i ended up removing it since i never used it and it gave some virus/keylogger warnings. Everything is still there to enable it again if its of interest, simply uncomment this line and enable it hotkeys in the config file:  
+``` #import hotkeys ```  
 Or download the prepackaged exe: [TarkovTime_v1_withhotkeys.zip](https://github.com/Bullhoff/TarkovTime/files/9693308/TarkovTime_v1_withhotkeys.zip)
 
 
